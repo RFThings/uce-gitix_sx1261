@@ -1,5 +1,5 @@
 # Module uce-gitix_sx1261
-![Board](https://github.com/RFThings/uce-gitix_sx61/blob/master/images/image1.png =200x)
+![Board](https://github.com/RFThings/uce-gitix_sx61/blob/master/images/image1.png){ width=50% }
 
 ## Functions:
    * Connected to LoRa modules: GiTiX868 and RFM9x
