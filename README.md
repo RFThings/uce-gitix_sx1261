@@ -1,5 +1,5 @@
 # Module uce-gitix_sx1261
-![Board](/images/image.png){:height="500px" width="500px"}
+<img src="/images/image.png" width="60%">
 
 ## Functions:
    * Connected to LoRa modules: GiTiX868 and RFM9x
@@ -38,13 +38,13 @@
 
 ## Sensors
   * DHT11
-  ![DHT11](/images/DHT11.JPG){:height="100px" width="100px"}
+  ![DHT11](/images/DHT11.JPG)
   * Motion
-  ![MOTION](/images/MOTION.png){:height="100px" width="100px"}
+  ![MOTION](/images/MOTION.png)
   * Infrared
-  ![Infrared](/images/INFARED.jpg){:height="100px" width="100px"}
+  ![Infrared](/images/INFARED.jpg)
   * Smoking
-  ![smaking](/images/MQ2.jpg){:height="100px" width="100px"}
+  ![smaking](/images/MQ2.jpg)
 ## Interface
   * UART
   | Board | MCU |
