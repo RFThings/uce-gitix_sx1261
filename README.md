@@ -38,22 +38,23 @@
 
 ## Sensors
   * DHT11
-  <img src="/images/DHT11.JPG" width="50%">
+    <img src="/images/DHT11.JPG" width="50%">
   * Motion
-  <img src="/images/MOTION.png" width="50%">
+    <img src="/images/MOTION.png" width="50%">
   * Infrared
-  <img src="/images/INFARED.jpg" width="50%">
+    <img src="/images/INFARED.jpg" width="50%">
   * Smoking
-  <img src="/images/MQ2.jpg" width="50%" display: block;margin-left: auto;margin-right: auto;>
+    <img src="/images/MQ2.jpg" width="50%">
 ## Interface
   * UART
-  | Board | MCU |
-  | 0     | RX  |
-  | 1     | TX  |
+    | Board | MCU |
+    | 0     | RX  |
+    | 1     | TX  |
+
   * I2C
-  | Board | MCU |
-  | A4    | SDA |
-  | A5    | SCL |
+    | Board | MCU |
+    | A4    | SDA |
+    | A5    | SCL |
 ## Note
   * Vin power supply minimum +3.7V - maximum +5.5V. Over +5.5V board not connected with the sensors. It will be reformed with Version 1.2.
 
