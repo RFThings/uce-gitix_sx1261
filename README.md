@@ -38,21 +38,23 @@
 
 ## Sensors
   * DHT11
-    <img src="/images/DHT11.JPG" width="50%">
+    <img src="/images/DHT11.JPG" width="30%">
   * Motion
-    <img src="/images/MOTION.png" width="50%">
+    <img src="/images/MOTION.png" width="30%">
   * Infrared
-    <img src="/images/INFARED.jpg" width="50%">
+    <img src="/images/INFARED.jpg" width="30%">
   * Smoking
-    <img src="/images/MQ2.jpg" width="50%">
+    <img src="/images/MQ2.jpg" width="30%">
 ## Interface
   * UART
     | Board | MCU |
+    |-------|-----|
     | 0     | RX  |
     | 1     | TX  |
 
   * I2C
     | Board | MCU |
+    |-------|-----|
     | A4    | SDA |
     | A5    | SCL |
 ## Note
