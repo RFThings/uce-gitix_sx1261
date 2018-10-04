@@ -1,5 +1,5 @@
 # Module uce-gitix_sx1261
-![Board](https://github.com/RFThings/uce-gitix_sx61/blob/master/images/image1.png){:.some-css-class width="200"}
+![Board](https://github.com/RFThings/uce-gitix_sx61/blob/master/images/image.png)
 
 ## Functions:
    * Connected to LoRa modules: GiTiX868 and RFM9x
@@ -28,7 +28,32 @@
 
   | GiTiX868                              | MCU              |
   |---------------------------------------|------------------|
-  | DIO0,DIO1,DIO2,BUSY,RESET,SPI,SPI-NSS | 2,6,7,8,9,SPI,10 |
+  | DIO1                                  | 2                |
+  | DIO2                                  | 5                |
+  | DIO3                                  | 6                |
+  | BUSY                                  | 8                |
+  | RESET                                 | 9                |
+  | SPI                                   | SPI MCU          |
+  | NSS                                   | 10               |
+
+## Sensors
+  * DHT11
+  ![DHT11](https://github.com/RFThings/uce-gitix_sx61/blob/master/images/DHT11.JPG)
+  * Motion
+  ![MOTION](https://github.com/RFThings/uce-gitix_sx61/blob/master/images/MOTION.png)
+  * Infrared
+  ![Infrared](https://github.com/RFThings/uce-gitix_sx61/blob/master/images/INFRARED.jpg)
+  * Smoking
+  ![smaking](https://github.com/RFThings/uce-gitix_sx61/blob/master/images/MQ2.jpg)
+## Interface
+  * UART
+  | Board | MCU |
+  | 0     | RX  |
+  | 1     | TX  |
+  * I2C
+  | Board | MCU |
+  | A4    | SDA |
+  | A5    | SCL |
 ## Note
   * Vin power supply minimum +3.7V - maximum +5.5V. Over +5.5V board not connected with the sensors. It will be reformed with Version 1.2.
 
