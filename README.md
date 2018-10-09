@@ -3,7 +3,7 @@
 
 ## Functions:
    * Connected to LoRa modules: GiTiX868 and RFM9x
-   * Micro USB Firmware MCU using Arduino IDE Bootloader Arduino ProMini
+   * Micro USB Firmware MCU using Arduino IDE with Arduino ProMini mode.
    * Pinout connetor:
       * DHT11: Temp and Humid
       * Infrared Sensor (Digital Signal)
@@ -18,22 +18,27 @@
       * A button control signal digital in board
       * A button reset MCU
 
-## Quick Start
-  * Dowloading Library uce-lora-sx1261.zip  and exact it.
-  * Using tool [Arduino IDE](https://www.arduino.cc/en/Main/Software) open file run example tx or rx `.ino` and Firmware for board.
-## Connection
-  | Board                                 | MCU              |
+## Installing
+  * To install this library:
+    * Dowloading Library uce-gitix_sx1261.zip  and exact it.
+      install it using the Arduino Library manager ("Sketch" -> "Include Library" -> "Manage Libraries..."), or
+      download a zipfile from github using the "Download ZIP" button and install it using the IDE ("Sketch" -> "Include Library" -> "Add .ZIP Library..."
+      clone this git repository into your sketchbook/libraries folder.
+    * For more info, see https://www.arduino.cc/en/Guide/Libraries
+  * Using tool [Arduino IDE](https://www.arduino.cc/en/Main/Software) open file run example RFThings -> tx_uce or rx_uce `.ino` and firmware for boards.
+## Configuration
+  | Board                                 | Arduino ProMini  |
   |---------------------------------------|------------------|
   | Led (R,G,B)                           |  A0,A1,A2        |
 
-  | GiTiX868                              | MCU              |
+  | GiTiX868                              | Arduino ProMini  |
   |---------------------------------------|------------------|
   | DIO1                                  | 2                |
   | DIO2                                  | 5                |
   | DIO3                                  | 6                |
   | BUSY                                  | 8                |
   | RESET                                 | 9                |
-  | SPI                                   | SPI MCU          |
+  | SPI                                   | SPI ProMini      |
   | NSS                                   | 10               |
 
 ## Sensors
@@ -48,14 +53,14 @@
 ## Interface
   * UART
 
-    | Board | MCU |
+    | Board |Arduino ProMini |
     |-------|-----|
     | 0     | RX  |
     | 1     | TX  |
 
   * I2C
-  
-    | Board | MCU |
+
+    | Board | Arduino ProMini |
     |-------|-----|
     | A4    | SDA |
     | A5    | SCL |

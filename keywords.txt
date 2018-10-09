@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For Energy Saving
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+lora_sx1261	KEYWORD1
+sx1261	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+BoardDisableIrq	KEYWORD2
+BoardEnableIrq	KEYWORD2
+SX126xIoInit	KEYWORD2
+SX126xIoIrqInit	KEYWORD2
+SX126xIoDeInit	KEYWORD2
+SX126xReset	KEYWORD2
+SX126xWaitOnBusy	KEYWORD2
+SX126xWakeup	KEYWORD2
+SX126xSetRx	KEYWORD2
