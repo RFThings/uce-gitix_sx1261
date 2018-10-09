@@ -3,19 +3,19 @@
 
 ## Functions:
    * Connected to LoRa modules: GiTiX868 and RFM9x
-   * Micro USB Firmware MCU using Arduino IDE with Arduino ProMini mode.
+   * Micro USB Firmware MCU using Arduino IDE with Arduino ProMini 8MHz, 3.3V.
    * Pinout connetor:
       * DHT11: Temp and Humid
       * Infrared Sensor (Digital Signal)
       * Communication: UART, I2C
       * Motion Sensor
       * Smoking Sensor
-   * Input 4.2 - 5V(Vin)
+   * Input 4.2 - 5.5V(Vin)
    * Pinout 3.3V,5V
-   * Antenna 868MHz Internal
+   * Antenna 868MHz on board
    * Internal:
-      * Three LED (Red, Blue, Green) Control digital signal.
-      * A button control signal digital in board
+      * Three LEDs (Red, Blue, Green) control digital signal.
+      * A button control signal digital on board
       * A button reset MCU
 
 ## Installing
@@ -25,11 +25,12 @@
       download a zipfile from github using the "Download ZIP" button and install it using the IDE ("Sketch" -> "Include Library" -> "Add .ZIP Library..."
       clone this git repository into your sketchbook/libraries folder.
     * For more info, see https://www.arduino.cc/en/Guide/Libraries
-  * Using tool [Arduino IDE](https://www.arduino.cc/en/Main/Software) open file run example RFThings -> tx_uce or rx_uce `.ino` and firmware for boards.
+  * Using tool [Arduino IDE](https://www.arduino.cc/en/Main/Software) open file run example **RFThings** -> **tx_uce** or **rx_uce** `.ino` and firmware for boards.
 ## Configuration
   | Board                                 | Arduino ProMini  |
   |---------------------------------------|------------------|
   | Led (R,G,B)                           |  A0,A1,A2        |
+  | Button Interrupt                      |  4               |
 
   | GiTiX868                              | Arduino ProMini  |
   |---------------------------------------|------------------|
