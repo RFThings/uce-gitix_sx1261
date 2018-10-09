@@ -2,7 +2,7 @@
 <img src="/images/image.png" width="100%">
 
 ## Functions:
-   * Connected to LoRa modules: GiTiX868 and RFM9x
+   * Connected to LoRa modules: [GiTiX868](https://github.com/RFThings/module-sx1261) and RFM9x
    * Micro USB Firmware MCU using Arduino IDE with Arduino ProMini 8MHz, 3.3V.
    * Pinout connetor:
       * DHT11: Temp and Humid
@@ -17,7 +17,6 @@
       * Three LEDs (Red, Blue, Green) control digital signal.
       * A button control signal digital on board
       * A button reset MCU
-
 ## Installing
   * To install this library:
     * Dowloading Library uce-gitix_sx1261.zip  and exact it.
