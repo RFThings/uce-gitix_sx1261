@@ -26,6 +26,7 @@
       clone this git repository into your sketchbook/libraries folder.
     * For more info, see https://www.arduino.cc/en/Guide/Libraries
   * Using tool [Arduino IDE](https://www.arduino.cc/en/Main/Software) open file run example **RFThings** -> **tx_uce** or **rx_uce** `.ino` and firmware for boards.
+  * Open serial console with **Bautate** `115200`.
 ## Configuration
   | Board                                 | Arduino ProMini  |
   |---------------------------------------|------------------|
@@ -70,3 +71,4 @@
 
 ## Feature for Version 1.2 original
   * Change pins +5V supply for sensor to +3.3V
+  * Supported LoRaWan
